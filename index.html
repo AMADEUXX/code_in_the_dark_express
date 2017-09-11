@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<style>
+  .father{
+    display:flex;
+    flex-direction: column;
+    font-family:'Arial';
+  }
+  .first{
+    display:flex;
+    width:100%;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .first-span-1{
+    font-size:12px;
+    margin-right: 20px;
+  }
+  .first-span-2{
+    font-size:12px;
+    margin-right: 20px;
+  }
+  .first-image{
+    width:20px;
+    height:20px;
+    margin-right: 20px;
+  }
+  .first-button{
+    padding:10px;
+    border-radius:2px;
+    border:0;
+    font-size:12px;
+    background:rgb(69,128,239);
+    font-weight:bolder;
+    color:white;
+  }
+  .second{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .second-in{
+    display:flex;
+    flex-direction: row;
+  }
+  .second-in2{
+    display:flex;
+    flex-direction: row;
+    margin-top: 20px;
+    width:20%;
+    justify-content: space-around;
+  }
+  .second-span1{
+    color:#4285f4;
+    font-size:80px;
+    font-family:'Arial';
+  }
+  .second-span2{
+    color:#ea4355;
+    font-size:80px;
+    font-family:'Arial';
+  }
+  .second-span3{
+    color:#fbbc05;
+    font-size:80px;
+    font-family:'Arial';
+  }
+  .second-span4{
+    color:#4285f4;
+    font-size:80px;
+    font-family:'Arial';
+  }
+  .second-span5{
+    color:#34a853;
+    font-size:80px;
+    font-family:'Arial';
+  }
+  .second-span6{
+    color:#ea4355;
+    font-size:80px;
+    font-family:'Arial';
+  }
+  .second-span7{
+    color:rgb(66, 66, 66);
+    margin-top:20px;
+    font-size:11px;
+    font-family:'Arial';
+  }
+  .second-input{
+    width:50%;
+    height:35px;
+    border:1px solid #f2f2f2;
+    background-image:url('microfono.png');
+    background-position: 97%;
+    background-size:25px;
+    background-repeat: no-repeat;
+    box-shadow: 1px #888888;
+
+  }
+  .second-in2-button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #f2f2f2;
+    color: rgb(66, 66, 66);
+    border:0;
+    font-weight:bolder;
+    font-family:'Arial';
+  }
+  .third{
+
+  }
+</style>
+<body>
+  <div class="father">
+    <div class="first">
+      <span class="first-span-1">Gmail</span>
+      <span class="first-span-2">Images</span>
+      <img src="icon.png" class="first-image" />
+      <button class="first-button">Sign in</button>
+    </div>
+    <div class="second">
+      <div class="second-in">
+        <span class="second-span1">G</span>
+        <span class="second-span2">o</span>
+        <span class="second-span3">o</span>
+        <span class="second-span4">g</span>
+        <span class="second-span5">l</span>
+        <span class="second-span6">e</span>
+      </div>
+        <input type="text" class="second-input">
+      <div class="second-in2">
+        <button class="second-in2-button">Google search</button>
+        <button class="second-in2-button">I'm Feeling Lucky</button>
+      </div>
+      <span class="second-span7">Google.com.mx offered in: Español (Latinoamérica)</span>
+
+    </div>
+    <div class="third">
+
+    </div>
+  </div>
+</body>
+</html>
